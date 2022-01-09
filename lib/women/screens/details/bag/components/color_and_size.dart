@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import '../../../models/Bag.dart';
+import '../../../../models/Bag.dart';
 
-import '../../../../constants.dart';
+import '../../../../../constants.dart';
 
 class ColorAndSize extends StatelessWidget {
   const ColorAndSize({
@@ -15,8 +15,7 @@ class ColorAndSize extends StatelessWidget {
   Widget build(BuildContext context) {
     return Column(
       children: <Widget>[
-        Container( 
-            margin: const EdgeInsets.only(top: kDefaultPaddin),
+        Container(
             padding: const EdgeInsets.symmetric(vertical: kDefaultPaddin),
             child: Row(
             children: <Widget>[

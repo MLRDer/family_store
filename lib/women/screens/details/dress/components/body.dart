@@ -1,15 +1,15 @@
+import 'package:family_store/women/models/Dress.dart';
 import 'package:flutter/material.dart';
-import '../../../../constants.dart';
-import '../../../models/Bag.dart';
+import '../../../../../constants.dart';
 
-import 'add_to_cart.dart';
-import 'color_and_size.dart';
-import 'counter_with_fav_btn.dart';
+import 'cart.dart';
+import 'price.dart';
+import 'counter.dart';
 import 'description.dart';
-import 'product_title_with_image.dart';
+import 'image.dart';
 
 class Body extends StatelessWidget {
-  final Bag product;
+  final Dress product;
 
   const Body({required Key key, required this.product}) : super(key: key);
   @override

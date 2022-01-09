@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
-import '../../../constants.dart';
-import '../../models/Bag.dart';
+import '../../../../constants.dart';
+import '../../../models/Bag.dart';
 import './components/body.dart';
 
-class DetailsScreen extends StatelessWidget {
+class BagDetailsScreen extends StatelessWidget {
   final Bag product;
 
-  const DetailsScreen({
+  const BagDetailsScreen({
       required Key key, 
       required this.product}) : super(key: key);
   @override

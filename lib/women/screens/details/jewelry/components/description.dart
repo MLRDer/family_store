@@ -1,7 +1,7 @@
+import 'package:family_store/women/models/Jewelry.dart';
 import 'package:flutter/material.dart';
-import '../../../models/Bag.dart';
 
-import '../../../../constants.dart';
+import '../../../../../constants.dart';
 
 class Description extends StatelessWidget {
   const Description({
@@ -9,7 +9,7 @@ class Description extends StatelessWidget {
     required this.product,
   }) : super(key: key);
 
-  final Bag product;
+  final Jewelry product;
 
   @override
   Widget build(BuildContext context) {

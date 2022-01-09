@@ -1,7 +1,5 @@
 import 'package:flutter/material.dart';
-import '../../../models/Bag.dart';
-
-import '../../../../constants.dart';
+import '../../../../models/Bag.dart';
 
 class ProductTitleWithImage extends StatelessWidget {
   const ProductTitleWithImage({
@@ -13,11 +11,12 @@ class ProductTitleWithImage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Hero(
-      tag: "${product.id}",
-      child: Image.asset(
-        product.image,
-        fit: BoxFit.fill,
+    return SizedBox(
+      height: MediaQuery.of(context).size.height * 0.4,
+      width: MediaQuery.of(context).size.width,
+      child: Hero(
+        tag: "${product.id}",
+        child: Image.asset(product.image, fit: BoxFit.fill),
       ),
     );
   }

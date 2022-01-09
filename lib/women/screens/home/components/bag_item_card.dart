@@ -3,10 +3,10 @@ import '../../../models/Bag.dart';
 
 import '../../../../constants.dart';
 
-class ItemCard extends StatelessWidget {
+class BagItemCard extends StatelessWidget {
   final Bag product;
   final VoidCallback press;
-  const ItemCard({
+  const BagItemCard({
     required Key key,
     required this.product,
     required this.press,

@@ -1,8 +1,8 @@
+import 'package:family_store/women/models/Perfume.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
-import '../../../models/Bag.dart';
 
-import '../../../../constants.dart';
+import '../../../../../constants.dart';
 
 class AddToCart extends StatelessWidget {
   const AddToCart({
@@ -10,7 +10,7 @@ class AddToCart extends StatelessWidget {
     required this.product,
   }) : super(key: key);
 
-  final Bag product;
+  final Perfume product;
 
   @override
   Widget build(BuildContext context) {

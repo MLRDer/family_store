@@ -1,17 +1,17 @@
+import 'Product.dart';
 import "package:flutter/material.dart";
 
-class Shoe {
-  final int id, price;
-  final String brand, description, image;
+class Shoe extends Product {
+  final String brand;
   final List<int> sizes;
 
   Shoe(
-      {required this.id,
-      required this.price,
-      required this.image,
+      {required id,
+      required price,
+      required image,
       required this.brand,
-      required this.description,
-      required this.sizes});
+      required description,
+      required this.sizes}) : super(id: id, price: price, description: description, image: image);
 }
 
 List<Shoe> shoes = [

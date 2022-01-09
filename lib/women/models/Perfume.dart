@@ -1,16 +1,17 @@
+import 'Product.dart';
 import 'package:flutter/material.dart';
 
-class Perfume {
-  final int id, price, volume;
-  final String description, title, image;
+class Perfume extends Product {
+  final int volume;
+  final String title;
 
   Perfume(
-      {required this.id,
+      {required id,
       required this.title,
-      required this.image,
-      required this.price,
+      required image,
+      required price,
       required this.volume,
-      required this.description});
+      required description}) : super(id: id, price: price, description: description, image: image);
 }
 
 List<Perfume> perfumes = [
