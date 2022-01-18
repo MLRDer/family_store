@@ -3,7 +3,7 @@ import 'package:flutter_svg/svg.dart';
 import '../../../../constants.dart';
 import './components/body.dart';
 
-class WomenHomeScreen extends StatelessWidget {
+class ChildrenHomeScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
