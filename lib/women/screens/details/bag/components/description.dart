@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:google_fonts/google_fonts.dart';
 import '../../../../models/Bag.dart';
 
 import '../../../../../constants.dart';
@@ -17,7 +18,7 @@ class Description extends StatelessWidget {
       padding: const EdgeInsets.symmetric(vertical: kDefaultPaddin),
       child: Text(
         product.description,
-        style: TextStyle(height: 1.5),
+        style: GoogleFonts.lobsterTwo(height: 1.5),
       ),
     );
   }

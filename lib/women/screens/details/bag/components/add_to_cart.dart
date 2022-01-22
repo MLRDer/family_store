@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
+import 'package:google_fonts/google_fonts.dart';
 import '../../../../models/Bag.dart';
 
 import '../../../../../constants.dart';
@@ -49,18 +50,15 @@ class AddToCart extends StatelessWidget {
                     decoration: BoxDecoration(
                     borderRadius: BorderRadius.circular(18),
                     gradient: LinearGradient(
-                        colors: <Color>[
-                            Color(0xffff723a),
-                            Color(0xffff9142)
-                        ],
+                        colors: <Color>[Color(0xffff5ccc), Color(0xffff9142)],
                     ),
                 ),
                   child: Center(
                     child: Text(
-                      "Sotib olish".toUpperCase(),
+                      "Sotib olish",
                       textAlign: TextAlign.center,
                       style: TextStyle(
-                        fontSize: 17,
+                        fontSize: 18,
                         fontWeight: FontWeight.bold,
                         color: Colors.white,
                       ),

@@ -11,6 +11,7 @@ import 'package:family_store/women/screens/home/components/jewelry_item_card.dar
 import 'package:family_store/women/screens/home/components/parfume_item_card.dart';
 import 'package:family_store/women/screens/home/components/shoe_item_card.dart';
 import 'package:flutter/material.dart';
+import 'package:google_fonts/google_fonts.dart';
 import '../../../../constants.dart';
 import '../../../models/Bag.dart';
 import '../../details/bag/details_screen.dart';
@@ -180,10 +181,7 @@ class BodyState extends State<Body> {
               top: kDefaultPaddin, left: kDefaultPaddin, right: kDefaultPaddin),
           child: Text(
             "Ayollar uchun",
-            style: Theme.of(context)
-                .textTheme
-                .headline5
-                ?.copyWith(fontWeight: FontWeight.bold),
+            style: GoogleFonts.lobsterTwo(color: Colors.black, fontSize: 25.0, fontWeight: FontWeight.bold),
           ),
         ),
         Categories(changeBodyState: changeState),

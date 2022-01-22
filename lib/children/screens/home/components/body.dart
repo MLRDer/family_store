@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:google_fonts/google_fonts.dart';
 import '../../../../constants.dart';
 import '../../../models/Product.dart';
 import '../../details/detail_screen.dart';
@@ -114,10 +115,7 @@ class BodyState extends State<Body> {
               top: kDefaultPaddin, left: kDefaultPaddin, right: kDefaultPaddin),
           child: Text(
             "Bolalar uchun",
-            style: Theme.of(context)
-                .textTheme
-                .headline5
-                ?.copyWith(fontWeight: FontWeight.bold),
+            style: GoogleFonts.lobsterTwo(color: Colors.black, fontSize: 25.0, fontWeight: FontWeight.bold),
           ),
         ),
         Categories(changeBodyState: changeState),

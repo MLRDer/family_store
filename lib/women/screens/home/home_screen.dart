@@ -19,10 +19,7 @@ class WomenHomeScreen extends StatelessWidget {
             gradient: LinearGradient(
               begin: Alignment.topLeft,
                 end: Alignment.bottomRight,
-                colors: <Color>[
-              Color(0xffff723a),
-              Color(0xffff9142)
-            ])          
+                colors: <Color>[Color(0xffff5ccc), Color(0xffff9142)])          
          ),
         ),
       elevation: 0,

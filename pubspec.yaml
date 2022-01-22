@@ -54,6 +54,11 @@ flutter:
         - assets/images/women/perfumes/
         - assets/images/women/shoes/
 
+        - assets/images/men/shim/
+        - assets/images/men/shirt/
+        - assets/images/men/shoe/
+        - assets/images/men/watch/
+
         - assets/images/children/shoe/
         - assets/images/children/toy/
         - assets/images/children/dress/

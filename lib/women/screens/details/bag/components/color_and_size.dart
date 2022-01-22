@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:google_fonts/google_fonts.dart';
 import '../../../../models/Bag.dart';
 
 import '../../../../../constants.dart';
@@ -24,14 +25,10 @@ class ColorAndSize extends StatelessWidget {
                     text: TextSpan(
                     style: TextStyle(color: kTextColor),
                     children: [
-                        TextSpan(text: "Nomi\n"),
+                        TextSpan(text: "Nomi\n", style: GoogleFonts.lobsterTwo(color: kTextColor)),
                         TextSpan(
                         text: "${product.title}",
-                        style: Theme.of(context)
-                            .textTheme
-                            .headline5
-                            ?.copyWith(fontWeight: FontWeight.bold),
-                        )
+                        style: GoogleFonts.lobsterTwo(color: kTextColor, fontSize: 14.0))
                     ],
                     ),
                 ),
@@ -42,14 +39,10 @@ class ColorAndSize extends StatelessWidget {
                     text: TextSpan(
                     style: TextStyle(color: kTextColor),
                     children: [
-                        TextSpan(text: "Narxi\n"),
+                        TextSpan(text: "Narxi\n", style: GoogleFonts.lobsterTwo(color: kTextColor)),
                         TextSpan(
                         text: "${product.price} so'm",
-                        style: Theme.of(context)
-                            .textTheme
-                            .headline5
-                            ?.copyWith(fontWeight: FontWeight.bold),
-                        )
+                        style: GoogleFonts.lobsterTwo(color: kTextColor, fontSize: 14.0))
                     ],
                     ),
                 ),
@@ -63,7 +56,7 @@ class ColorAndSize extends StatelessWidget {
                 child: Column(
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: <Widget>[
-                    Text("Ranglar"),
+                    Text("Ranglar", style: GoogleFonts.lobsterTwo(color: kTextColor)),
                     Row(
                         children: <Widget>[
                         ColorDot(
@@ -83,14 +76,10 @@ class ColorAndSize extends StatelessWidget {
                     text: TextSpan(
                     style: TextStyle(color: kTextColor),
                     children: [
-                        TextSpan(text: "O'lcham\n"),
+                        TextSpan(text: "O'lcham\n", style: GoogleFonts.lobsterTwo(color: kTextColor)),
                         TextSpan(
                         text: "${product.size}",
-                        style: Theme.of(context)
-                            .textTheme
-                            .headline5
-                            ?.copyWith(fontWeight: FontWeight.bold),
-                        )
+                        style: GoogleFonts.lobsterTwo(color: kTextColor, fontSize: 14.0))
                     ],
                     ),
                 ),
