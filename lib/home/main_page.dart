@@ -13,11 +13,7 @@ class MainScreen extends StatelessWidget {
       appBar: buildAppBar(),
       body: buildBody(context),
       bottomNavigationBar: ConvexAppBar(
-        gradient: LinearGradient(
-          begin: Alignment.topLeft,
-          end: Alignment.bottomRight,
-          colors: <Color>[Color(0xffff723a), Color(0xffff9142)],
-        ),
+        gradient: appMainGradient,
         style: TabStyle.reactCircle,
         color: Colors.white,
         backgroundColor: Color(0xffff723a),
@@ -51,24 +47,27 @@ class MainScreen extends StatelessWidget {
                           borderRadius: BorderRadius.only(
                               bottomLeft: Radius.circular(20),
                               bottomRight: Radius.circular(20)),
-                          gradient: LinearGradient(
-                            begin: Alignment.topLeft,
-                            end: Alignment.bottomRight,
-                            colors: <Color>[
-                              Color(0xffff723a),
-                              Color(0xffff9142)
-                            ],
-                          )),
+                          gradient: appMainGradient),
                       child: ClipRRect(
-                    borderRadius: BorderRadius.only(bottomLeft: Radius.circular(20), bottomRight: Radius.circular(20)),
-                    child: Image.asset("assets/images/home/family.jpg", fit: BoxFit.fill),
-                ),
-                          
-                      
+                        borderRadius: BorderRadius.only(
+                            bottomLeft: Radius.circular(20),
+                            bottomRight: Radius.circular(20)),
+                        child: Image.asset("assets/images/home/family.jpg",
+                            fit: BoxFit.fill),
+                      ),
                     ),
-                    buildCard("Erkaklar uchun", <Color>[Color(0xff80fc38), Color(0xffff9142) /*Color(0xffa0ebcf)*/], () => {menPage(context)}),
-                    buildCard("Ayollar uchun", <Color>[Color(0xffff5ccc), Color(0xffff9142) /*Color(0xffef87be)*/], () => {womenPage(context)}),
-                    buildCard("Bolalar uchun", <Color>[Color(0xffffbf00), Color(0xffff9142)], () => {childrenPage(context)})
+                    buildCard(
+                        "Erkaklar uchun",
+                        mensGradientColorList,
+                        () => {menPage(context)}),
+                    buildCard(
+                        "Ayollar uchun",
+                        womensGradientColorList,
+                        () => {womenPage(context)}),
+                    buildCard(
+                        "Bolalar uchun",
+                        childrensGradientColorList,
+                        () => {childrenPage(context)})
                   ],
                 ),
               ],
@@ -117,8 +116,11 @@ class MainScreen extends StatelessWidget {
                 text,
                 textAlign: TextAlign.center,
                 style: GoogleFonts.lobsterTwo(
-                    fontStyle: FontStyle.italic, fontWeight: FontWeight.bold, fontSize: 18, color: Colors.white),
-                ),
+                    fontStyle: FontStyle.italic,
+                    fontWeight: FontWeight.bold,
+                    fontSize: 18,
+                    color: Colors.white),
+              ),
             ),
           ),
         ),
@@ -129,11 +131,7 @@ class MainScreen extends StatelessWidget {
   AppBar buildAppBar() {
     return AppBar(
       flexibleSpace: Container(
-        decoration: BoxDecoration(
-            gradient: LinearGradient(
-                begin: Alignment.topLeft,
-                end: Alignment.bottomRight,
-                colors: <Color>[Color(0xffff723a), Color(0xffff9142)])),
+        decoration: BoxDecoration(gradient: appMainGradient),
       ),
       elevation: 0,
       leading: IconButton(
