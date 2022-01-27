@@ -328,7 +328,7 @@ List<Product> child_shoes = [
       image: "assets/images/children/shoe/shoe_11.jpg",
       gender: "Bolalar uchun",
       made_in: "Turkiya",
-      age_range: "8-16 oylik"
+      age_range: "1-2 yosh"
       ),
   Product(
       id: 12,
@@ -338,7 +338,7 @@ List<Product> child_shoes = [
       image: "assets/images/children/shoe/shoe_12.jpg",
       gender: "Bolalar uchun",
       made_in: "Turkiya",
-      age_range: "8-16 oylik"
+      age_range: "6-18 oylik"
       ),
   Product(
       id: 13,
@@ -348,7 +348,7 @@ List<Product> child_shoes = [
       image: "assets/images/children/shoe/shoe_13.jpg",
       gender: "Bolalar uchun",
       made_in: "Turkiya",
-      age_range: "8-16 oylik"
+      age_range: "0-6 oylik"
       ),
   Product(
       id: 14,
@@ -358,7 +358,7 @@ List<Product> child_shoes = [
       image: "assets/images/children/shoe/shoe_14.jpg",
       gender: "Bolalar uchun",
       made_in: "Turkiya",
-      age_range: "8-16 oylik"
+      age_range: "0-6 oylik"
       ),
   Product(
       id: 15,
@@ -368,7 +368,7 @@ List<Product> child_shoes = [
       image: "assets/images/children/shoe/shoe_15.jpg",
       gender: "Bolalar uchun",
       made_in: "Turkiya",
-      age_range: "8-16 oylik"
+      age_range: "1-2 yosh"
       ),
   Product(
       id: 16,
@@ -378,7 +378,7 @@ List<Product> child_shoes = [
       image: "assets/images/children/shoe/shoe_16.jpg",
       gender: "Bolalar uchun",
       made_in: "Turkiya",
-      age_range: "8-16 oylik"
+      age_range: "6-12 oylik"
       ),
   Product(
       id: 17,
@@ -388,7 +388,7 @@ List<Product> child_shoes = [
       image: "assets/images/children/shoe/shoe_17.jpg",
       gender: "Bolalar uchun",
       made_in: "Turkiya",
-      age_range: "8-16 oylik"
+      age_range: "2-3 yosh"
       ),
   Product(
       id: 18,
@@ -398,7 +398,7 @@ List<Product> child_shoes = [
       image: "assets/images/children/shoe/shoe_18.jpg",
       gender: "Bolalar uchun",
       made_in: "Turkiya",
-      age_range: "8-16 oylik"
+      age_range: "0-6 oylik"
       ),
   Product(
       id: 19,
@@ -408,7 +408,7 @@ List<Product> child_shoes = [
       image: "assets/images/children/shoe/shoe_19.jpg",
       gender: "Bolalar uchun",
       made_in: "Turkiya",
-      age_range: "8-16 oylik"
+      age_range: "6-12 oylik"
       ),
   Product(
       id: 20,
@@ -418,209 +418,209 @@ List<Product> child_shoes = [
       image: "assets/images/children/shoe/shoe_20.jpg",
       gender: "Bolalar uchun",
       made_in: "Turkiya",
-      age_range: "8-16 oylik"
+      age_range: "0-6 oylik"
       )
 ];
 
 List<Product> toys = [
   Product(
       id: 1,
-      price: 99000,
+      price: 35000,
       description:
-          "Bolajoningiz uchun ajoyib o'yinchoqlar. Bularni o'ynab farzandingiz vashshe mazza qiladi!",
+          "O'yinchoq telefon bayram va tug'ilgan kun sovg'asi uchun ajoyib o'yinchoq.",
       image: "assets/images/children/toy/toy_1.jpg",
       gender: "Qizaloqlar uchun",
       made_in: "Turkiya",
-      age_range: "8-16 oylik"
+      age_range: "1-4yosh"
     ),
   Product(
       id: 2,
-      price: 99000,
+      price: 45000,
       description:
-          "Bolajoningiz uchun ajoyib o'yinchoqlar. Bularni o'ynab farzandingiz vashshe mazza qiladi!",
+          "Yuqori sifatli tabiiy mahsulotlardan tayyorlangan yumshoq bayram va tug'ilgan kun sovg'asi uchun ajoyib o'yinchoq.",
       image: "assets/images/children/toy/toy_2.jpg",
       gender: "Qizaloqlar uchun",
       made_in: "Turkiya",
-      age_range: "8-16 oylik"
+      age_range: "1-4yosh"
       ),
   Product(
       id: 3,
-      price: 99000,
+      price: 55000,
       description:
-          "Bolajoningiz uchun ajoyib o'yinchoqlar. Bularni o'ynab farzandingiz vashshe mazza qiladi!",
+          "Yuqori sifatli tabiiy mahsulotlardan tayyorlangan yumshoq bayram va tug'ilgan kun sovg'asi uchun ajoyib o'yinchoq.",
       image: "assets/images/children/toy/toy_3.jpg",
       gender: "Qizaloqlar uchun",
       made_in: "Turkiya",
-      age_range: "8-16 oylik"
+      age_range: "1-4yosh"
       ),
   Product(
       id: 4,
-      price: 99000,
+      price: 50000,
       description:
-          "Bolajoningiz uchun ajoyib o'yinchoqlar. Bularni o'ynab farzandingiz vashshe mazza qiladi!",
+          "Yuqori sifatli tabiiy mahsulotlardan tayyorlangan yumshoq bayram va tug'ilgan kun sovg'asi uchun ajoyib o'yinchoq.",
       image: "assets/images/children/toy/toy_4.jpg",
       gender: "Qizaloqlar uchun",
-      made_in: "Turkiya",
-      age_range: "8-16 oylik"
+      made_in: "Xitoy",
+      age_range: "1-4yosh"
       ),
   Product(
       id: 5,
-      price: 99000,
+      price: 40000,
       description:
-          "Bolajoningiz uchun ajoyib o'yinchoqlar. Bularni o'ynab farzandingiz vashshe mazza qiladi!",
+          "Yuqori sifatli tabiiy mahsulotlardan tayyorlangan yumshoq bayram va tug'ilgan kun sovg'asi uchun ajoyib o'yinchoq.",
       image: "assets/images/children/toy/toy_5.jpg",
       gender: "Qizaloqlar uchun",
       made_in: "Turkiya",
-      age_range: "8-16 oylik"
+      age_range: "1-4yosh"
       ),
   Product(
       id: 6,
-      price: 99000,
+      price: 25000,
       description:
-          "Bolajoningiz uchun ajoyib o'yinchoqlar. Bularni o'ynab farzandingiz vashshe mazza qiladi!",
+          "Qizlar uchun Elza qo'g'irchog'i bayram va tug'ilgan kun sovg'asi uchun ajoyib o'yinchoq.",
       image: "assets/images/children/toy/toy_6.jpg",
       gender: "Qizaloqlar uchun",
-      made_in: "Turkiya",
-      age_range: "8-16 oylik"
+      made_in: "O'zbekiston",
+      age_range: "1-4yosh"
       ),
   Product(
       id: 7,
-      price: 99000,
+      price: 70000,
       description:
-          "Bolajoningiz uchun ajoyib o'yinchoqlar. Bularni o'ynab farzandingiz vashshe mazza qiladi!",
+          "O'yinchoq mashina! O'g'il bolalar uchun ajoyib bayram sovg'asi.",
       image: "assets/images/children/toy/toy_7.jpg",
       gender: "Qizaloqlar uchun",
       made_in: "Turkiya",
-      age_range: "8-16 oylik"
+      age_range: "1-4yosh"
       ),
   Product(
       id: 8,
-      price: 99000,
+      price: 80000,
       description:
-          "Bolajoningiz uchun ajoyib o'yinchoqlar. Bularni o'ynab farzandingiz vashshe mazza qiladi!",
+          "O'yinchoq mashina! O'g'il bolalar uchun ajoyib bayram sovg'asi.",
       image: "assets/images/children/toy/toy_8.jpg",
       gender: "Qizaloqlar uchun",
-      made_in: "Turkiya",
-      age_range: "8-16 oylik"
+      made_in: "O'zbekiston",
+      age_range: "1-4yosh"
       ),
   Product(
       id: 9,
-      price: 99000,
+      price: 60000,
       description:
-          "Bolajoningiz uchun ajoyib o'yinchoqlar. Bularni o'ynab farzandingiz vashshe mazza qiladi!",
+          "O'yinchoq vertalyot! O'g'il bolalar uchun ajoyib bayram sovg'asi.",
       image: "assets/images/children/toy/toy_9.jpg",
       gender: "Qizaloqlar uchun",
       made_in: "Turkiya",
-      age_range: "8-16 oylik"
+      age_range: "1-4yosh"
       ),
   Product(
       id: 10,
-      price: 99000,
+      price: 50000,
       description:
-          "Bolajoningiz uchun ajoyib o'yinchoqlar. Bularni o'ynab farzandingiz vashshe mazza qiladi!",
+          "O'yinchoq mashina! O'g'il bolalar uchun ajoyib bayram sovg'asi.",
       image: "assets/images/children/toy/toy_10.jpg",
       gender: "Qizaloqlar uchun",
-      made_in: "Turkiya",
-      age_range: "8-16 oylik"
+      made_in: "Xitoy",
+      age_range: "1-4yosh"
       ),
   Product(
       id: 11,
-      price: 99000,
+      price: 90000,
       description:
-          "Bolajoningiz uchun ajoyib o'yinchoqlar. Bularni o'ynab farzandingiz vashshe mazza qiladi!",
+          "O'yinchoq robot! O'g'il bolalar uchun ajoyib bayram sovg'asi.",
       image: "assets/images/children/toy/toy_11.jpg",
       gender: "Qizaloqlar uchun",
       made_in: "Turkiya",
-      age_range: "8-16 oylik"
+      age_range: "1-4yosh"
       ),
   Product(
       id: 12,
-      price: 99000,
+      price: 50000,
       description:
-          "Bolajoningiz uchun ajoyib o'yinchoqlar. Bularni o'ynab farzandingiz vashshe mazza qiladi!",
+          "Yuqori sifatli tabiiy mahsulotlardan tayyorlangan yumshoq bayram va tug'ilgan kun sovg'asi uchun ajoyib o'yinchoq.",
       image: "assets/images/children/toy/toy_12.jpg",
       gender: "Qizaloqlar uchun",
-      made_in: "Turkiya",
-      age_range: "8-16 oylik"
+      made_in: "Xitoy",
+      age_range: "1-4yosh"
       ),
   Product(
       id: 13,
-      price: 99000,
+      price: 40000,
       description:
-          "Bolajoningiz uchun ajoyib o'yinchoqlar. Bularni o'ynab farzandingiz vashshe mazza qiladi!",
+          "Yuqori sifatli tabiiy mahsulotlardan tayyorlangan yumshoq bayram va tug'ilgan kun sovg'asi uchun ajoyib o'yinchoq.",
       image: "assets/images/children/toy/toy_13.jpg",
       gender: "Qizaloqlar uchun",
       made_in: "Turkiya",
-      age_range: "8-16 oylik"
+      age_range: "1-4yosh"
       ),
   Product(
       id: 14,
-      price: 99000,
+      price: 35000,
       description:
-          "Bolajoningiz uchun ajoyib o'yinchoqlar. Bularni o'ynab farzandingiz vashshe mazza qiladi!",
+          "Yuqori sifatli tabiiy mahsulotlardan tayyorlangan yumshoq bayram va tug'ilgan kun sovg'asi uchun ajoyib o'yinchoq.",
       image: "assets/images/children/toy/toy_14.jpg",
       gender: "Qizaloqlar uchun",
-      made_in: "Turkiya",
-      age_range: "8-16 oylik"
+      made_in: "Xitoy",
+      age_range: "1-4yosh"
       ),
   Product(
       id: 15,
-      price: 99000,
+      price: 30000,
       description:
-          "Bolajoningiz uchun ajoyib o'yinchoqlar. Bularni o'ynab farzandingiz vashshe mazza qiladi!",
+          "Yuqori sifatli tabiiy mahsulotlardan tayyorlangan yumshoq bayram va tug'ilgan kun sovg'asi uchun ajoyib o'yinchoq.",
       image: "assets/images/children/toy/toy_15.jpg",
       gender: "Qizaloqlar uchun",
       made_in: "Turkiya",
-      age_range: "8-16 oylik"
+      age_range: "1-4yosh"
       ),
   Product(
       id: 16,
-      price: 99000,
+      price: 45000,
       description:
-          "Bolajoningiz uchun ajoyib o'yinchoqlar. Bularni o'ynab farzandingiz vashshe mazza qiladi!",
+          "O'yinchoq traktor! O'g'il bolalar uchun ajoyib bayram sovg'asi.",
       image: "assets/images/children/toy/toy_16.jpg",
       gender: "Qizaloqlar uchun",
       made_in: "Turkiya",
-      age_range: "8-16 oylik"
+      age_range: "1-4yosh"
       ),
   Product(
       id: 17,
-      price: 99000,
+      price: 50000,
       description:
-          "Bolajoningiz uchun ajoyib o'yinchoqlar. Bularni o'ynab farzandingiz vashshe mazza qiladi!",
+          "Yuqori sifatli tabiiy mahsulotlardan tayyorlangan yumshoq bayram va tug'ilgan kun sovg'asi uchun ajoyib o'yinchoq.",
       image: "assets/images/children/toy/toy_17.jpg",
       gender: "Qizaloqlar uchun",
-      made_in: "Turkiya",
-      age_range: "8-16 oylik"
+      made_in: "Xitoy",
+      age_range: "1-4yosh"
       ),
   Product(
       id: 18,
-      price: 99000,
+      price: 45000,
       description:
-          "Bolajoningiz uchun ajoyib o'yinchoqlar. Bularni o'ynab farzandingiz vashshe mazza qiladi!",
+          "Yuqori sifatli tabiiy mahsulotlardan tayyorlangan yumshoq bayram va tug'ilgan kun sovg'asi uchun ajoyib o'yinchoq.",
       image: "assets/images/children/toy/toy_18.jpg",
       gender: "Qizaloqlar uchun",
       made_in: "Turkiya",
-      age_range: "8-16 oylik"
+      age_range: "1-4yosh"
       ),
   Product(
       id: 19,
-      price: 99000,
+      price: 65000,
       description:
-          "Bolajoningiz uchun ajoyib o'yinchoqlar. Bularni o'ynab farzandingiz vashshe mazza qiladi!",
+          "O'yinchoq robot! O'g'il bolalar uchun ajoyib bayram sovg'asi.",
       image: "assets/images/children/toy/toy_19.jpg",
       gender: "Qizaloqlar uchun",
-      made_in: "Turkiya",
-      age_range: "8-16 oylik"
+      made_in: "Xitoy",
+      age_range: "1-4yosh"
       ),
   Product(
       id: 20,
-      price: 99000,
+      price: 55000,
       description:
-          "Bolajoningiz uchun ajoyib o'yinchoqlar. Bularni o'ynab farzandingiz vashshe mazza qiladi!",
+          "Yuqori sifatli tabiiy mahsulotlardan tayyorlangan yumshoq bayram va tug'ilgan kun sovg'asi uchun ajoyib o'yinchoq.",
       image: "assets/images/children/toy/toy_20.jpg",
       gender: "Qizaloqlar uchun",
       made_in: "Turkiya",
-      age_range: "8-16 oylik"
+      age_range: "1-4yosh"
       )
 ];
