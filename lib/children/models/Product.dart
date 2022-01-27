@@ -19,59 +19,59 @@ class Product {
 List<Product> child_dresses = [
   Product(
       id: 1,
-      price: 99000,
+      price: 120000,
       description:
-          "Qizalog'ingiz uchun ajoyib vashsheee ashshshaaallll ko'ylaklar. Bu ko'ylaklar bilan farzandingiz yanada yoqimtoy ko'rinadi",
+          "Qizaloqlar uchun yozgi 100% paxta matodan tikilgan zamonaviy ko'ylak.",
       image: "assets/images/children/dress/dress_1.jpg",
       gender: "Qizaloqlar uchun",
-      made_in: "Turkiya",
-      age_range: "8-16 oylik"
+      made_in: "Xitoy",
+      age_range: "0-24 oylik"
     ),
   Product(
       id: 2,
-      price: 99000,
+      price: 150000,
       description:
-          "Qizalog'ingiz uchun ajoyib vashsheee ashshshaaallll ko'ylaklar. Bu ko'ylaklar bilan farzandingiz yanada yoqimtoy ko'rinadi",
+          "Body dizaynidagi lion matosidan tikilgan bejirim kiyim.",
       image: "assets/images/children/dress/dress_2.jpg",
       gender: "Qizaloqlar uchun",
       made_in: "Turkiya",
-      age_range: "8-16 oylik"
+      age_range: "8-24 oylik"
       ),
   Product(
       id: 3,
-      price: 99000,
+      price: 180000,
       description:
-          "Qizalog'ingiz uchun ajoyib vashsheee ashshshaaallll ko'ylaklar. Bu ko'ylaklar bilan farzandingiz yanada yoqimtoy ko'rinadi",
+          "Qizalog'ingiz uchun qulay bosh kiyim bilan birgalikdagi yozgi ajoyib ko'ylak.",
       image: "assets/images/children/dress/dress_3.jpg",
       gender: "Qizaloqlar uchun",
-      made_in: "Turkiya",
-      age_range: "8-16 oylik"
+      made_in: "Xitoy",
+      age_range: "1-3 yosh"
       ),
   Product(
       id: 4,
-      price: 99000,
+      price: 75000,
       description:
-          "Qizalog'ingiz uchun ajoyib vashsheee ashshshaaallll ko'ylaklar. Bu ko'ylaklar bilan farzandingiz yanada yoqimtoy ko'rinadi",
+          "Qizalog'ingiz uchun kuzgi bayramona ko'ylak.",
       image: "assets/images/children/dress/dress_4.jpg",
       gender: "Qizaloqlar uchun",
-      made_in: "Turkiya",
-      age_range: "8-16 oylik"
+      made_in: "Xitoy",
+      age_range: "2-4 yosh"
       ),
   Product(
       id: 5,
-      price: 99000,
+      price: 180000,
       description:
-          "Qizalog'ingiz uchun ajoyib vashsheee ashshshaaallll ko'ylaklar. Bu ko'ylaklar bilan farzandingiz yanada yoqimtoy ko'rinadi",
+          "Qizalog'ingiz uchun qulay bosh kiyim bilan birgalikdagi yozgi ajoyib ko'ylak.",
       image: "assets/images/children/dress/dress_5.jpg",
       gender: "Qizaloqlar uchun",
       made_in: "Turkiya",
-      age_range: "8-16 oylik"
+      age_range: "1-3 oylik"
       ),
   Product(
       id: 6,
-      price: 99000,
+      price: 130000,
       description:
-          "Qizalog'ingiz uchun ajoyib vashsheee ashshshaaallll ko'ylaklar. Bu ko'ylaklar bilan farzandingiz yanada yoqimtoy ko'rinadi",
+          "Qizalog'ingiz uchun qulay bosh kiyim bilan birgalikdagi yozgi ajoyib ko'ylak.",
       image: "assets/images/children/dress/dress_6.jpg",
       gender: "Qizaloqlar uchun",
       made_in: "Turkiya",
@@ -79,9 +79,9 @@ List<Product> child_dresses = [
       ),
   Product(
       id: 7,
-      price: 99000,
+      price: 100000,
       description:
-          "Qizalog'ingiz uchun ajoyib vashsheee ashshshaaallll ko'ylaklar. Bu ko'ylaklar bilan farzandingiz yanada yoqimtoy ko'rinadi",
+          "Qizalog'ingiz uchun qulay va chiroyli yozgi ajoyib ko'ylak.",
       image: "assets/images/children/dress/dress_7.jpg",
       gender: "Qizaloqlar uchun",
       made_in: "Turkiya",
@@ -89,29 +89,29 @@ List<Product> child_dresses = [
       ),
   Product(
       id: 8,
-      price: 99000,
+      price: 150000,
       description:
-          "Qizalog'ingiz uchun ajoyib vashsheee ashshshaaallll ko'ylaklar. Bu ko'ylaklar bilan farzandingiz yanada yoqimtoy ko'rinadi",
+          "Kapalak qanoqchasi! Qizaloqlar uchun yozgi 100% paxta matodan tikilgan zamonaviy ko'ylak.",
       image: "assets/images/children/dress/dress_8.jpg",
       gender: "Qizaloqlar uchun",
       made_in: "Turkiya",
-      age_range: "8-16 oylik"
+      age_range: "12-24 oylik"
       ),
   Product(
       id: 9,
-      price: 99000,
+      price: 65000,
       description:
-          "Qizalog'ingiz uchun ajoyib vashsheee ashshshaaallll ko'ylaklar. Bu ko'ylaklar bilan farzandingiz yanada yoqimtoy ko'rinadi",
+          "Korean Summer Dress brendidan qizalog'ingiz uchun bejirim yozgi ko'ylak.",
       image: "assets/images/children/dress/dress_9.jpg",
       gender: "Qizaloqlar uchun",
-      made_in: "Turkiya",
-      age_range: "8-16 oylik"
+      made_in: "Koreya",
+      age_range: "1-3 yosh"
       ),
   Product(
       id: 10,
-      price: 99000,
+      price: 100000,
       description:
-          "Qizalog'ingiz uchun ajoyib vashsheee ashshshaaallll ko'ylaklar. Bu ko'ylaklar bilan farzandingiz yanada yoqimtoy ko'rinadi",
+          "Qizalog'ingiz uchun qulay va bejirim yozgi ajoyib ko'ylak.",
       image: "assets/images/children/dress/dress_10.jpg",
       gender: "Qizaloqlar uchun",
       made_in: "Turkiya",
@@ -119,142 +119,142 @@ List<Product> child_dresses = [
       ),
   Product(
       id: 11,
-      price: 99000,
+      price: 120000,
       description:
-          "Qizalog'ingiz uchun ajoyib vashsheee ashshshaaallll ko'ylaklar. Bu ko'ylaklar bilan farzandingiz yanada yoqimtoy ko'rinadi",
+          "O'g'lingiz uchun hoodie dizaynidagi ajoyib kuzgi kiyim.",
       image: "assets/images/children/dress/dress_11.jpg",
-      gender: "Qizaloqlar uchun",
+      gender: "Bolalar uchun",
       made_in: "Turkiya",
-      age_range: "8-16 oylik"
+      age_range: "9-24 oylik"
       ),
   Product(
       id: 12,
-      price: 99000,
+      price: 160000,
       description:
-          "Qizalog'ingiz uchun ajoyib vashsheee ashshshaaallll ko'ylaklar. Bu ko'ylaklar bilan farzandingiz yanada yoqimtoy ko'rinadi",
+          "O'g'il bolalar uchun bayramlar uchun mo'ljallangan kiyim",
       image: "assets/images/children/dress/dress_12.jpg",
-      gender: "Qizaloqlar uchun",
+      gender: "Bolalar uchun",
       made_in: "Turkiya",
-      age_range: "8-16 oylik"
+      age_range: "9-24 oylik"
       ),
   Product(
       id: 13,
-      price: 99000,
+      price: 110000,
       description:
-          "Qizalog'ingiz uchun ajoyib vashsheee ashshshaaallll ko'ylaklar. Bu ko'ylaklar bilan farzandingiz yanada yoqimtoy ko'rinadi",
+          "O'g'il bolalar uchun yozda kiyishga mo'ljallangan, qulay va sifatli kiyim.",
       image: "assets/images/children/dress/dress_13.jpg",
-      gender: "Qizaloqlar uchun",
+      gender: "Bolalar uchun",
       made_in: "Turkiya",
-      age_range: "8-16 oylik"
+      age_range: "1-3 yosh"
       ),
   Product(
       id: 14,
-      price: 99000,
+      price: 130000,
       description:
-          "Qizalog'ingiz uchun ajoyib vashsheee ashshshaaallll ko'ylaklar. Bu ko'ylaklar bilan farzandingiz yanada yoqimtoy ko'rinadi",
+          "O'g'il bolalar uchun bahorgi kiyishga mo'ljallangan, qulay va sifatli kiyim.",
       image: "assets/images/children/dress/dress_14.jpg",
-      gender: "Qizaloqlar uchun",
+      gender: "Bolalar uchun",
       made_in: "Turkiya",
-      age_range: "8-16 oylik"
+      age_range: "2-4 yosh"
       ),
   Product(
       id: 15,
-      price: 99000,
+      price: 140000,
       description:
-          "Qizalog'ingiz uchun ajoyib vashsheee ashshshaaallll ko'ylaklar. Bu ko'ylaklar bilan farzandingiz yanada yoqimtoy ko'rinadi",
+          "O'g'il bolalar uchun bahorgi kiyishga mo'ljallangan, qulay va sifatli kiyim.",
       image: "assets/images/children/dress/dress_15.jpg",
-      gender: "Qizaloqlar uchun",
-      made_in: "Turkiya",
-      age_range: "8-16 oylik"
+      gender: "Bolalar uchun",
+      made_in: "Bishkek",
+      age_range: "9-24 oylik"
       ),
   Product(
       id: 16,
-      price: 99000,
+      price: 100000,
       description:
-          "Qizalog'ingiz uchun ajoyib vashsheee ashshshaaallll ko'ylaklar. Bu ko'ylaklar bilan farzandingiz yanada yoqimtoy ko'rinadi",
+          "O'g'il bolalar uchun yozda kiyishga mo'ljallangan, qulay va sifatli kiyim.",
       image: "assets/images/children/dress/dress_16.jpg",
-      gender: "Qizaloqlar uchun",
+      gender: "Bolalar uchun",
       made_in: "Turkiya",
-      age_range: "8-16 oylik"
+      age_range: "9-24 oylik"
       ),
   Product(
       id: 17,
-      price: 99000,
+      price: 170000,
       description:
-          "Qizalog'ingiz uchun ajoyib vashsheee ashshshaaallll ko'ylaklar. Bu ko'ylaklar bilan farzandingiz yanada yoqimtoy ko'rinadi",
+          "O'g'il bolalar uchun yozda kiyishga mo'ljallangan, qulay va sifatli kiyim.",
       image: "assets/images/children/dress/dress_17.jpg",
-      gender: "Qizaloqlar uchun",
-      made_in: "Turkiya",
-      age_range: "8-16 oylik"
+      gender: "Bolalar uchun",
+      made_in: "Xitoy",
+      age_range: "12-24 oylik"
       ),
   Product(
       id: 18,
-      price: 99000,
+      price: 200000,
       description:
-          "Qizalog'ingiz uchun ajoyib vashsheee ashshshaaallll ko'ylaklar. Bu ko'ylaklar bilan farzandingiz yanada yoqimtoy ko'rinadi",
+          "O'g'il bolalar uchun kuzgi kiyishga mo'ljallangan, qulay va sifatli kiyim.",
       image: "assets/images/children/dress/dress_18.jpg",
-      gender: "Qizaloqlar uchun",
+      gender: "Bolalar uchun",
       made_in: "Turkiya",
-      age_range: "8-16 oylik"
+      age_range: "1-3 yosh"
       ),
   Product(
       id: 19,
-      price: 99000,
+      price: 230000,
       description:
-          "Qizalog'ingiz uchun ajoyib vashsheee ashshshaaallll ko'ylaklar. Bu ko'ylaklar bilan farzandingiz yanada yoqimtoy ko'rinadi",
+          "IYEAL Fashion brendidan bolalar uchun to'y va tug'ilgan kunlar uchun 100% paxta matodan kambenizon.",
       image: "assets/images/children/dress/dress_19.jpg",
-      gender: "Qizaloqlar uchun",
-      made_in: "Turkiya",
-      age_range: "8-16 oylik"
+      gender: "Bolalar uchun",
+      made_in: "Xitoy",
+      age_range: "3-24 oylik"
       ),
   Product(
       id: 20,
-      price: 99000,
+      price: 190000,
       description:
-          "Qizalog'ingiz uchun ajoyib vashsheee ashshshaaallll ko'ylaklar. Bu ko'ylaklar bilan farzandingiz yanada yoqimtoy ko'rinadi",
+          "O'g'il bolalar uchun bahorgi kiyishga mo'ljallangan, qulay va sifatli kiyim.",
       image: "assets/images/children/dress/dress_20.jpg",
-      gender: "Qizaloqlar uchun",
+      gender: "Bolalar uchun",
       made_in: "Turkiya",
-      age_range: "8-16 oylik"
+      age_range: "2-4 yosh"
       )
 ];
 
 List<Product> child_shoes = [
   Product(
       id: 1,
-      price: 99000,
+      price: 60000,
       description:
-          "Qizalog'ingiz uchun ajoyib vashsheee ashshshaaallll oyoq kiyimlar. Bu oyoq kiyimlar bilan farzandingiz yanada yoqimtoy ko'rinadi",
+          "Qulay va bejirim, sifatli va hamyonbop qizaloqlar uchun oyoq kiyim.",
       image: "assets/images/children/shoe/shoe_1.jpg",
       gender: "Qizaloqlar uchun",
       made_in: "Turkiya",
-      age_range: "8-16 oylik"
+      age_range: "6-12 oylik"
     ),
   Product(
       id: 2,
-      price: 99000,
+      price: 100000,
       description:
-          "Qizalog'ingiz uchun ajoyib vashsheee ashshshaaallll oyoq kiyimlar. Bu oyoq kiyimlar bilan farzandingiz yanada yoqimtoy ko'rinadi",
+          "Qulay va bejirim, sifatli va hamyonbop qizaloqlar uchun oyoq kiyim.",
       image: "assets/images/children/shoe/shoe_2.jpg",
       gender: "Qizaloqlar uchun",
-      made_in: "Turkiya",
+      made_in: "Xitoy",
       age_range: "8-16 oylik"
       ),
   Product(
       id: 3,
-      price: 99000,
+      price: 75000,
       description:
-          "Qizalog'ingiz uchun ajoyib vashsheee ashshshaaallll oyoq kiyimlar. Bu oyoq kiyimlar bilan farzandingiz yanada yoqimtoy ko'rinadi",
+          "Qulay va bejirim, sifatli va hamyonbop qizaloqlar uchun oyoq kiyim.",
       image: "assets/images/children/shoe/shoe_3.jpg",
       gender: "Qizaloqlar uchun",
       made_in: "Turkiya",
-      age_range: "8-16 oylik"
+      age_range: "6-12 oylik"
       ),
   Product(
       id: 4,
-      price: 99000,
+      price: 120000,
       description:
-          "Qizalog'ingiz uchun ajoyib vashsheee ashshshaaallll oyoq kiyimlar. Bu oyoq kiyimlar bilan farzandingiz yanada yoqimtoy ko'rinadi",
+          "Qulay va bejirim, sifatli va hamyonbop qizaloqlar uchun oyoq kiyim.",
       image: "assets/images/children/shoe/shoe_4.jpg",
       gender: "Qizaloqlar uchun",
       made_in: "Turkiya",
@@ -262,161 +262,161 @@ List<Product> child_shoes = [
       ),
   Product(
       id: 5,
-      price: 99000,
+      price: 130000,
       description:
-          "Qizalog'ingiz uchun ajoyib vashsheee ashshshaaallll oyoq kiyimlar. Bu oyoq kiyimlar bilan farzandingiz yanada yoqimtoy ko'rinadi",
+          "Qulay va bejirim, sifatli va hamyonbop qizaloqlar uchun oyoq kiyim.",
       image: "assets/images/children/shoe/shoe_5.jpg",
       gender: "Qizaloqlar uchun",
       made_in: "Turkiya",
-      age_range: "8-16 oylik"
+      age_range: "12-24 oylik"
       ),
   Product(
       id: 6,
-      price: 99000,
+      price: 80000,
       description:
-          "Qizalog'ingiz uchun ajoyib vashsheee ashshshaaallll oyoq kiyimlar. Bu oyoq kiyimlar bilan farzandingiz yanada yoqimtoy ko'rinadi",
+          "Qulay va bejirim, sifatli va hamyonbop qizaloqlar uchun oyoq kiyim.",
       image: "assets/images/children/shoe/shoe_6.jpg",
       gender: "Qizaloqlar uchun",
       made_in: "Turkiya",
-      age_range: "8-16 oylik"
+      age_range: "6-12 oylik"
       ),
   Product(
       id: 7,
-      price: 99000,
+      price: 150000,
       description:
-          "Qizalog'ingiz uchun ajoyib vashsheee ashshshaaallll oyoq kiyimlar. Bu oyoq kiyimlar bilan farzandingiz yanada yoqimtoy ko'rinadi",
+          "Qulay va bejirim, sifatli va hamyonbop qizaloqlar uchun oyoq kiyim.",
       image: "assets/images/children/shoe/shoe_7.jpg",
       gender: "Qizaloqlar uchun",
       made_in: "Turkiya",
-      age_range: "8-16 oylik"
+      age_range: "12-24 oylik"
       ),
   Product(
       id: 8,
-      price: 99000,
+      price: 90000,
       description:
-          "Qizalog'ingiz uchun ajoyib vashsheee ashshshaaallll oyoq kiyimlar. Bu oyoq kiyimlar bilan farzandingiz yanada yoqimtoy ko'rinadi",
+          "Qulay va bejirim, sifatli va hamyonbop qizaloqlar uchun oyoq kiyim.",
       image: "assets/images/children/shoe/shoe_8.jpg",
       gender: "Qizaloqlar uchun",
-      made_in: "Turkiya",
-      age_range: "8-16 oylik"
+      made_in: "Xitoy",
+      age_range: "8-24 oylik"
       ),
   Product(
       id: 9,
-      price: 99000,
+      price: 180000,
       description:
-          "Qizalog'ingiz uchun ajoyib vashsheee ashshshaaallll oyoq kiyimlar. Bu oyoq kiyimlar bilan farzandingiz yanada yoqimtoy ko'rinadi",
+          "Qulay va bejirim, sifatli va hamyonbop qizaloqlar uchun oyoq kiyim.",
       image: "assets/images/children/shoe/shoe_9.jpg",
       gender: "Qizaloqlar uchun",
       made_in: "Turkiya",
-      age_range: "8-16 oylik"
+      age_range: "6-12 oylik"
       ),
   Product(
       id: 10,
-      price: 99000,
+      price: 130000,
       description:
-          "Qizalog'ingiz uchun ajoyib vashsheee ashshshaaallll oyoq kiyimlar. Bu oyoq kiyimlar bilan farzandingiz yanada yoqimtoy ko'rinadi",
+          "Qulay va bejirim, sifatli va hamyonbop qizaloqlar uchun oyoq kiyim.",
       image: "assets/images/children/shoe/shoe_10.jpg",
       gender: "Qizaloqlar uchun",
       made_in: "Turkiya",
-      age_range: "8-16 oylik"
+      age_range: "1-3 yosh"
       ),
   Product(
       id: 11,
-      price: 99000,
+      price: 100000,
       description:
-          "Qizalog'ingiz uchun ajoyib vashsheee ashshshaaallll oyoq kiyimlar. Bu oyoq kiyimlar bilan farzandingiz yanada yoqimtoy ko'rinadi",
+          "Qulay va bejirim, sifatli va hamyonbop Bolalar uchun oyoq kiyim.",
       image: "assets/images/children/shoe/shoe_11.jpg",
-      gender: "Qizaloqlar uchun",
+      gender: "Bolalar uchun",
       made_in: "Turkiya",
       age_range: "8-16 oylik"
       ),
   Product(
       id: 12,
-      price: 99000,
+      price: 150000,
       description:
-          "Qizalog'ingiz uchun ajoyib vashsheee ashshshaaallll oyoq kiyimlar. Bu oyoq kiyimlar bilan farzandingiz yanada yoqimtoy ko'rinadi",
+          "Qulay va bejirim, sifatli va hamyonbop Bolalar uchun oyoq kiyim.",
       image: "assets/images/children/shoe/shoe_12.jpg",
-      gender: "Qizaloqlar uchun",
+      gender: "Bolalar uchun",
       made_in: "Turkiya",
       age_range: "8-16 oylik"
       ),
   Product(
       id: 13,
-      price: 99000,
+      price: 60000,
       description:
-          "Qizalog'ingiz uchun ajoyib vashsheee ashshshaaallll oyoq kiyimlar. Bu oyoq kiyimlar bilan farzandingiz yanada yoqimtoy ko'rinadi",
+          "Qulay va bejirim, sifatli va hamyonbop Bolalar uchun oyoq kiyim.",
       image: "assets/images/children/shoe/shoe_13.jpg",
-      gender: "Qizaloqlar uchun",
+      gender: "Bolalar uchun",
       made_in: "Turkiya",
       age_range: "8-16 oylik"
       ),
   Product(
       id: 14,
-      price: 99000,
+      price: 90000,
       description:
-          "Qizalog'ingiz uchun ajoyib vashsheee ashshshaaallll oyoq kiyimlar. Bu oyoq kiyimlar bilan farzandingiz yanada yoqimtoy ko'rinadi",
+          "Qulay va bejirim, sifatli va hamyonbop Bolalar uchun oyoq kiyim.",
       image: "assets/images/children/shoe/shoe_14.jpg",
-      gender: "Qizaloqlar uchun",
+      gender: "Bolalar uchun",
       made_in: "Turkiya",
       age_range: "8-16 oylik"
       ),
   Product(
       id: 15,
-      price: 99000,
+      price: 160000,
       description:
-          "Qizalog'ingiz uchun ajoyib vashsheee ashshshaaallll oyoq kiyimlar. Bu oyoq kiyimlar bilan farzandingiz yanada yoqimtoy ko'rinadi",
+          "Qulay va bejirim, sifatli va hamyonbop Bolalar uchun oyoq kiyim.",
       image: "assets/images/children/shoe/shoe_15.jpg",
-      gender: "Qizaloqlar uchun",
+      gender: "Bolalar uchun",
       made_in: "Turkiya",
       age_range: "8-16 oylik"
       ),
   Product(
       id: 16,
-      price: 99000,
+      price: 80000,
       description:
-          "Qizalog'ingiz uchun ajoyib vashsheee ashshshaaallll oyoq kiyimlar. Bu oyoq kiyimlar bilan farzandingiz yanada yoqimtoy ko'rinadi",
+          "Qulay va bejirim, sifatli va hamyonbop Bolalar uchun oyoq kiyim.",
       image: "assets/images/children/shoe/shoe_16.jpg",
-      gender: "Qizaloqlar uchun",
+      gender: "Bolalar uchun",
       made_in: "Turkiya",
       age_range: "8-16 oylik"
       ),
   Product(
       id: 17,
-      price: 99000,
+      price: 60000,
       description:
-          "Qizalog'ingiz uchun ajoyib vashsheee ashshshaaallll oyoq kiyimlar. Bu oyoq kiyimlar bilan farzandingiz yanada yoqimtoy ko'rinadi",
+          "Qulay va bejirim, sifatli va hamyonbop Bolalar uchun oyoq kiyim.",
       image: "assets/images/children/shoe/shoe_17.jpg",
-      gender: "Qizaloqlar uchun",
+      gender: "Bolalar uchun",
       made_in: "Turkiya",
       age_range: "8-16 oylik"
       ),
   Product(
       id: 18,
-      price: 99000,
+      price: 50000,
       description:
-          "Qizalog'ingiz uchun ajoyib vashsheee ashshshaaallll oyoq kiyimlar. Bu oyoq kiyimlar bilan farzandingiz yanada yoqimtoy ko'rinadi",
+          "Qulay va bejirim, sifatli va hamyonbop Bolalar uchun oyoq kiyim.",
       image: "assets/images/children/shoe/shoe_18.jpg",
-      gender: "Qizaloqlar uchun",
+      gender: "Bolalar uchun",
       made_in: "Turkiya",
       age_range: "8-16 oylik"
       ),
   Product(
       id: 19,
-      price: 99000,
+      price: 180000,
       description:
-          "Qizalog'ingiz uchun ajoyib vashsheee ashshshaaallll oyoq kiyimlar. Bu oyoq kiyimlar bilan farzandingiz yanada yoqimtoy ko'rinadi",
+          "Qulay va bejirim, sifatli va hamyonbop Bolalar uchun oyoq kiyim.",
       image: "assets/images/children/shoe/shoe_19.jpg",
-      gender: "Qizaloqlar uchun",
+      gender: "Bolalar uchun",
       made_in: "Turkiya",
       age_range: "8-16 oylik"
       ),
   Product(
       id: 20,
-      price: 99000,
+      price: 100000,
       description:
-          "Qizalog'ingiz uchun ajoyib vashsheee ashshshaaallll oyoq kiyimlar. Bu oyoq kiyimlar bilan farzandingiz yanada yoqimtoy ko'rinadi",
+          "Qulay va bejirim, sifatli va hamyonbop Bolalar uchun oyoq kiyim.",
       image: "assets/images/children/shoe/shoe_20.jpg",
-      gender: "Qizaloqlar uchun",
+      gender: "Bolalar uchun",
       made_in: "Turkiya",
       age_range: "8-16 oylik"
       )
