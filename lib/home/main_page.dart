@@ -3,32 +3,11 @@ import 'package:family_store/men/screens/home/home_screen.dart';
 import 'package:family_store/women/screens/home/home_screen.dart';
 import 'package:flutter/material.dart';
 import '../../../../constants.dart';
-import 'package:convex_bottom_bar/convex_bottom_bar.dart';
 import 'package:google_fonts/google_fonts.dart';
 
-class MainScreen extends StatelessWidget {
+class MainPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: buildAppBar(),
-      body: buildBody(context),
-      bottomNavigationBar: ConvexAppBar(
-        gradient: appMainGradient,
-        style: TabStyle.reactCircle,
-        color: Colors.white,
-        backgroundColor: Color(0xffff723a),
-        items: [
-          TabItem(icon: Icons.search, title: "Qidirish"),
-          TabItem(icon: Icons.home, title: "Bosh sahifa"),
-          TabItem(icon: Icons.shopping_cart, title: "Savatcha"),
-        ],
-        initialActiveIndex: 1,
-        onTap: (int i) {},
-      ),
-    );
-  }
-
-  SingleChildScrollView buildBody(BuildContext context) {
     Size size = MediaQuery.of(context).size;
 
     return SingleChildScrollView(
@@ -56,17 +35,11 @@ class MainScreen extends StatelessWidget {
                             fit: BoxFit.fill),
                       ),
                     ),
-                    buildCard(
-                        "Erkaklar uchun",
-                        mensGradientColorList,
+                    buildCard("Erkaklar uchun", mensGradientColorList,
                         () => {menPage(context)}),
-                    buildCard(
-                        "Ayollar uchun",
-                        womensGradientColorList,
+                    buildCard("Ayollar uchun", womensGradientColorList,
                         () => {womenPage(context)}),
-                    buildCard(
-                        "Bolalar uchun",
-                        childrensGradientColorList,
+                    buildCard("Bolalar uchun", childrensGradientColorList,
                         () => {childrenPage(context)})
                   ],
                 ),
@@ -125,39 +98,6 @@ class MainScreen extends StatelessWidget {
           ),
         ),
       ),
-    );
-  }
-
-  AppBar buildAppBar() {
-    return AppBar(
-      flexibleSpace: Container(
-        decoration: BoxDecoration(gradient: appMainGradient),
-      ),
-      elevation: 0,
-      leading: IconButton(
-        icon: Icon(
-          Icons.menu,
-          color: Colors.white,
-        ),
-        onPressed: () {},
-      ),
-      title: Center(
-        child: Text(
-          "Family Store",
-          style: GoogleFonts.lobsterTwo(
-              fontStyle: FontStyle.italic, fontSize: 40, color: Colors.white),
-        ),
-      ),
-      actions: <Widget>[
-        IconButton(
-          icon: Icon(
-            Icons.shopping_cart,
-            color: Colors.white,
-          ),
-          onPressed: () {},
-        ),
-        SizedBox(width: kDefaultPaddin / 2)
-      ],
     );
   }
 }

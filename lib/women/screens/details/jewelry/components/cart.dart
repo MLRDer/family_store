@@ -1,3 +1,4 @@
+import 'package:family_store/hive/cart_item.dart';
 import 'package:family_store/women/models/Jewelry.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
@@ -33,7 +34,10 @@ class AddToCart extends StatelessWidget {
                 "assets/icons/add_to_cart.svg",
                 color: Colors.orange,
               ),
-              onPressed: () {},
+              onPressed: () {
+                CartItemBox.createCartItem(
+                    "Ayollar uchun", product.price, product.image);
+              },
             ),
           ),
           Expanded(
@@ -57,7 +61,7 @@ class AddToCart extends StatelessWidget {
                 ),
                   child: Center(
                     child: Text(
-                      "Sotib olish".toUpperCase(),
+                      "Sotib olish",
                       textAlign: TextAlign.center,
                       style: TextStyle(
                         fontSize: 17,

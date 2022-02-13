@@ -1,3 +1,4 @@
+import 'package:family_store/hive/cart_item.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:google_fonts/google_fonts.dart';
@@ -34,7 +35,10 @@ class AddToCart extends StatelessWidget {
                 "assets/icons/add_to_cart.svg",
                 color: Colors.orange,
               ),
-              onPressed: () {},
+              onPressed: () {
+                CartItemBox.createCartItem(
+                    "Ayollar uchun", product.price, product.image);
+              },
             ),
           ),
           Expanded(
@@ -45,14 +49,14 @@ class AddToCart extends StatelessWidget {
                     borderRadius: BorderRadius.circular(18)),
                 onPressed: () {},
                 child: Container(
-                    height: double.infinity,
-                    width: double.infinity,
-                    decoration: BoxDecoration(
+                  height: double.infinity,
+                  width: double.infinity,
+                  decoration: BoxDecoration(
                     borderRadius: BorderRadius.circular(18),
                     gradient: LinearGradient(
-                        colors: <Color>[Color(0xffff5ccc), Color(0xffff9142)],
+                      colors: <Color>[Color(0xffff5ccc), Color(0xffff9142)],
                     ),
-                ),
+                  ),
                   child: Center(
                     child: Text(
                       "Sotib olish",
