@@ -1,46 +1,50 @@
 import 'package:flutter/material.dart';
 
 // Build the credit card widget
-Card buildCreditCard(
+Container buildCreditCard(
     {required Color color,
     required String cardNumber,
     required String cardHolder,
     required String cardExpiration}) {
-  return Card(
-    elevation: 4.0,
-    color: color,
-    shape: RoundedRectangleBorder(
-      borderRadius: BorderRadius.circular(14),
-    ),
-    child: Container(
-      height: 200,
-      padding: const EdgeInsets.only(left: 16.0, right: 16.0, bottom: 22.0),
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.start,
-        mainAxisAlignment: MainAxisAlignment.spaceBetween,
-        children: <Widget>[
-          buildLogosBlock(),
-          Padding(
-            padding: const EdgeInsets.only(top: 16.0),
-            child: Text(
-              '$cardNumber',
-              style: TextStyle(
-                color: Colors.white,
-                fontSize: 21,
+  return Container(
+    decoration: BoxDecoration(color: Colors.transparent),
+    child: Card(
+      elevation: 4.0,
+      color: color,
+      shadowColor: color,
+      shape: RoundedRectangleBorder(
+        borderRadius: BorderRadius.circular(14),
+      ),
+      child: Container(
+        height: 200,
+        padding: const EdgeInsets.only(left: 16.0, right: 16.0, bottom: 22.0),
+        child: Column(
+          crossAxisAlignment: CrossAxisAlignment.start,
+          mainAxisAlignment: MainAxisAlignment.spaceBetween,
+          children: <Widget>[
+            buildLogosBlock(),
+            Padding(
+              padding: const EdgeInsets.only(top: 16.0),
+              child: Text(
+                '$cardNumber',
+                style: TextStyle(
+                  color: Colors.white,
+                  fontSize: 21,
+                ),
               ),
             ),
-          ),
-          Row(
-            mainAxisAlignment: MainAxisAlignment.spaceBetween,
-            children: <Widget>[
-              buildDetailsBlock(
-                label: 'Karta egasi',
-                value: cardHolder,
-              ),
-              buildDetailsBlock(label: 'Yaroqli', value: cardExpiration),
-            ],
-          ),
-        ],
+            Row(
+              mainAxisAlignment: MainAxisAlignment.spaceBetween,
+              children: <Widget>[
+                buildDetailsBlock(
+                  label: 'Karta egasi',
+                  value: cardHolder,
+                ),
+                buildDetailsBlock(label: 'Yaroqli', value: cardExpiration),
+              ],
+            ),
+          ],
+        ),
       ),
     ),
   );

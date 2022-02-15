@@ -4,14 +4,14 @@ import 'package:flutter/material.dart';
 
 CarouselSlider buildCardSlider(List<Card> cards) {
   return CarouselSlider(
-    options: CarouselOptions(height: 200.0),
+    options: CarouselOptions(height: 200.0,),
     items: cards.map((card) {
       return Builder(
         builder: (BuildContext context) {
           return Container(
               width: MediaQuery.of(context).size.width,
               margin: EdgeInsets.symmetric(horizontal: 5.0),
-              decoration: BoxDecoration(color: Colors.amber),
+              decoration: BoxDecoration(color: Colors.transparent),
               child: buildCreditCard(
                   color: Colors.black,
                   cardNumber: "4242 4242 4242 4242",
