@@ -1,43 +1,46 @@
 // GENERATED CODE - DO NOT MODIFY BY HAND
 
-part of 'cart_item.dart';
+part of 'credit_card.dart';
 
 // **************************************************************************
 // TypeAdapterGenerator
 // **************************************************************************
 
-class CartItemAdapter extends TypeAdapter<CartItem> {
+class CreditCardAdapter extends TypeAdapter<CreditCard> {
   @override
-  final int typeId = 0;
+  final int typeId = 1;
 
   @override
-  CartItem read(BinaryReader reader) {
+  CreditCard read(BinaryReader reader) {
     final numOfFields = reader.readByte();
     final fields = <int, dynamic>{
       for (int i = 0; i < numOfFields; i++) reader.readByte(): reader.read(),
     };
-    return CartItem()
+    return CreditCard()
       ..type = fields[0] as String
-      ..price = fields[1] as int
-      ..createdAt = fields[2] as DateTime
-      ..image = fields[3] as String
-      ..isPaid = fields[4] as bool;
+      ..cardHolder = fields[1] as String
+      ..cardNumber = fields[2] as String
+      ..expiresAt = fields[3] as String
+      ..isLast = fields[4] as bool
+      ..color = fields[5] as int;
   }
 
   @override
-  void write(BinaryWriter writer, CartItem obj) {
+  void write(BinaryWriter writer, CreditCard obj) {
     writer
-      ..writeByte(5)
+      ..writeByte(6)
       ..writeByte(0)
       ..write(obj.type)
       ..writeByte(1)
-      ..write(obj.price)
+      ..write(obj.cardHolder)
       ..writeByte(2)
-      ..write(obj.createdAt)
+      ..write(obj.cardNumber)
       ..writeByte(3)
-      ..write(obj.image)
+      ..write(obj.expiresAt)
       ..writeByte(4)
-      ..write(obj.isPaid);
+      ..write(obj.isLast)
+      ..writeByte(5)
+      ..write(obj.color);
   }
 
   @override
@@ -46,7 +49,7 @@ class CartItemAdapter extends TypeAdapter<CartItem> {
   @override
   bool operator ==(Object other) =>
       identical(this, other) ||
-      other is CartItemAdapter &&
+      other is CreditCardAdapter &&
           runtimeType == other.runtimeType &&
           typeId == other.typeId;
 }

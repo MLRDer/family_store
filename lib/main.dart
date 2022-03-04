@@ -1,4 +1,5 @@
 import 'package:family_store/hive/cart_item.dart';
+import 'package:family_store/hive/credit_card.dart';
 import 'package:family_store/home/onboarding_page.dart';
 import 'package:flutter/material.dart';
 import 'package:shared_preferences/shared_preferences.dart';
@@ -17,6 +18,8 @@ Future main() async {
   await Hive.initFlutter();
   Hive.registerAdapter(CartItemAdapter());
   await Hive.openBox<CartItem>("cartItems");
+  Hive.registerAdapter(CreditCardAdapter());
+  await Hive.openBox<CreditCard>("creditCards");
 
   runApp(MyApp());
 }

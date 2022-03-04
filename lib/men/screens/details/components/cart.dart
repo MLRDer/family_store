@@ -1,5 +1,7 @@
+import 'package:family_store/components/pay_and_buy_button.dart';
 import 'package:family_store/hive/cart_item.dart';
 import 'package:family_store/men/models/Product.dart';
+import 'package:family_store/payment/payment_page.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 
@@ -41,36 +43,14 @@ class AddToCart extends StatelessWidget {
             ),
           ),
           Expanded(
-            child: SizedBox(
-              height: 50,
-              child: FlatButton(
-                shape: RoundedRectangleBorder(
-                    borderRadius: BorderRadius.circular(18)),
-                onPressed: () {},
-                child: Container(
-                  height: double.infinity,
-                  width: double.infinity,
-                  decoration: BoxDecoration(
-                    borderRadius: BorderRadius.circular(18),
-                    gradient: LinearGradient(
-                      colors: <Color>[Color(0xffff723a), Color(0xffff9142)],
-                    ),
-                  ),
-                  child: Center(
-                    child: Text(
-                      "Sotib olish",
-                      textAlign: TextAlign.center,
-                      style: TextStyle(
-                        fontSize: 17,
-                        fontWeight: FontWeight.bold,
-                        color: Colors.white,
-                      ),
-                    ),
-                  ),
-                ),
-              ),
-            ),
-          ),
+            child: payAndBuyButton("Sotib olish", () => Navigator.push(
+                          context,
+                          MaterialPageRoute(
+                            builder: (context) => PaymentPage(
+                              price: product.price
+                            ),
+                          )),),
+          )
         ],
       ),
     );

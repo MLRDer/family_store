@@ -1,6 +1,7 @@
 import 'package:family_store/cart/empty_cart.dart';
 import 'package:family_store/components/pay_and_buy_button.dart';
 import 'package:family_store/hive/cart_item.dart';
+import 'package:family_store/payment/payment_page.dart';
 import 'package:flutter/material.dart';
 import 'package:hive_flutter/hive_flutter.dart';
 import '../../../../constants.dart';
@@ -23,7 +24,13 @@ class CheckoutPage extends StatelessWidget {
               ? Column(
                   children: <Widget>[
                     ...(cartItems.map((item) => singleItem(item, size))),
-                    payAndBuyButton("Umumiy: $sum so'm to'lash", () {})
+                    payAndBuyButton("Umumiy: $sum so'm to'lash", () => Navigator.push(
+                        context,
+                        MaterialPageRoute(
+                          builder: (context) => PaymentPage(
+                            price: sum,
+                          ),
+                        )),)
                   ],
                 )
               : EmptyCart(),

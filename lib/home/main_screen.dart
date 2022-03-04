@@ -14,7 +14,7 @@ class MainScreen extends StatefulWidget {
 
 class _MainScreenState extends State<MainScreen> {
   int selectedPage = 1;
-  final _pageOptions = [PaymentPage(price: 200000,), MainPage(), CheckoutPage()];
+  final _pageOptions = [EmptySearch(), MainPage(), CheckoutPage()];
 
   @override
   Widget build(BuildContext context) {
